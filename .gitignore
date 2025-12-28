@@ -1,0 +1,23 @@
+# Dependency (File library yang berat, orang lain bisa install sendiri via npm install)
+node_modules/
+
+# Environment Variables (Rahasia!)
+.env
+
+# Firebase Keys (SANGAT RAHASIA! Jangan sampai lolos)
+ikanhiu.json
+*.pem
+*.key
+post.rest
+
+
+# Logs (File catatan error di komputer lokal)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# OS generated files (File sampah sistem operasi)
+.DS_Store
+Thumbs.db

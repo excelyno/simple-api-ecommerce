@@ -5,7 +5,6 @@ const serviceAccount = require('../../ikanhiu.json'); // Pastikan path-nya benar
 if (!admin.apps.length) {
   admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
-    // Jika nanti pakai Realtime Database, tambahkan databaseURL di sini
   });
 }
 
